@@ -14,5 +14,3 @@
 # limitations under the License.
 #
 $(call inherit-product, device/asus/flo/aosp_flo.mk)
-
-PRODUCT_NAME := full_flo

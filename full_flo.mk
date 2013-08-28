@@ -14,3 +14,5 @@
 # limitations under the License.
 #
 $(call inherit-product, device/asus/flo/aosp_flo.mk)
+
+$(call inherit-product-if-exists, vendor/asus/flo/flo-vendor.mk)

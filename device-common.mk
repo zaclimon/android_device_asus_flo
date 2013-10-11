@@ -88,6 +88,14 @@ PRODUCT_COPY_FILES += \
 	device/asus/flo/keypad_8064.kcm:system/usr/keychars/keypad_8064.kcm \
 	device/asus/flo/pmic8xxx_pwrkey.kcm:system/usr/keychars/pmic8xxx_pwrkey.kcm
 
+# Settings stuff crash fixes
+PRODUCT_COPY_FILES += \
+        device/asus/flo/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+        device/asus/flo/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+        device/asus/flo/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+        device/asus/flo/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+        device/asus/flo/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt
+
 # Prebuilt input device calibration files
 PRODUCT_COPY_FILES += \
 	device/asus/flo/touch_dev.idc:system/usr/idc/touch_dev.idc

@@ -255,4 +255,6 @@
          The default is false. -->
     <bool name="config_lidControlsSleep">true</bool>
 
+    <!-- Whether doze feature is enabled by default in settings. -->
+    <bool name="config_doze_enabled_by_default">false</bool>
 </resources>

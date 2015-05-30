@@ -233,10 +233,10 @@ static void sync_thread(int off)
             (const struct sockaddr *)&client_addr, sizeof(struct sockaddr_un));
     }
 
-    if (rc < 0) {
-        ALOGE("%s: failed to send: %s", __func__, strerror(errno));
-    }
-}
+    /* Remove Annoying Logspam when mpdecision is not on or present*/
+    //if (rc < 0) {
+    //    ALOGE("%s: failed to send: %s", __func__, strerror(errno));
+    //}}
 
 static void enc_boost(int off)
 {

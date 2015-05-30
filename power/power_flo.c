@@ -236,7 +236,8 @@ static void sync_thread(int off)
     /* Remove Annoying Logspam when mpdecision is not on or present*/
     //if (rc < 0) {
     //    ALOGE("%s: failed to send: %s", __func__, strerror(errno));
-    //}}
+    //}
+}
 
 static void enc_boost(int off)
 {
